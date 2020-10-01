@@ -1,0 +1,129 @@
+<base href="{{ .Site.BaseURL }}" />
+<meta charset="utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0"
+/>
+<meta name="identifier-URL" content="{{ .Site.BaseURL }}" />
+
+<meta name="msapplication-config" content="/browserconfig.xml" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="#ffffff" />
+<meta name="apple-mobile-web-app-title" content="Monkin" />
+<meta name="application-name" content="Monkin" />
+<meta name="theme-color" content="#ffffff" />
+
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+{{- if .IsHome }}
+<title>{{ .Site.Title }}</title>
+{{- else }}
+<title>{{ .Title }} - {{ .Site.Title }}</title>
+{{- end }}
+<meta name="description" content="{{ .Site.Params.description }}" />
+
+<meta property="og:title" content="{{ .Site.Title }}" />
+<meta property="og:site_name" content="{{ .Site.BaseURL }}" />
+<meta property="og:url" content="{{ .Site.BaseURL }}" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="{{ .Site.Params.description }}" />
+<meta property="og:image" content="https://monkin.co/monkin.png" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@monkinco" />
+<meta name="twitter:creator" content="@monkinco" />
+<meta name="twitter:title" content="{{ .Site.Title }}" />
+<meta name="twitter:description" content="{{ .Site.Params.description }}" />
+<meta name="twitter:image" content="https://monkin.co/monkin.png" />
+
+<link rel="apple-touch-icon" href="https://monkin.co/logo-512x512.png" />
+<link rel="apple-touch-startup-image" href="https://monkin.co/mokin.png" />
+<link rel="icon" type="image/x-icon" href="https://monkin.co/favicon.png" />
+<link rel="manifest" href="/manifest.json" />
+
+<style>
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  .logo,
+  .slogan {
+    margin: 0;
+    padding: 0;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, segoe\ui, roboto, oxygen,
+      ubuntu, cantarell, fira\sans, droid\sans, helvetica\neue, sans-serif;
+    font-size: 1.6rem;
+    color: #000;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    max-width: 1020px;
+  }
+  a {
+    color: #000;
+  }
+  main {
+    display: block;
+  }
+  .logo {
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  .slogan {
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-transform: none;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+  }
+  footer p {
+    line-height: 1.8rem;
+  }
+  footer strong {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header div {
+    display: flex;
+    align-items: center;
+  }
+  small {
+    font-size: 1.4rem;
+  }
+  img {
+    margin-top: 20px;
+  }
+</style>

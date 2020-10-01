@@ -1,0 +1,10 @@
+baseURL = "https://monkin.co"
+languageCode = "en"
+title = "Monkin - We do impossible things possible"
+
+publishDir = "docs"
+theme = "monkin"
+
+[params]
+description = "Make, Make Build, Make Install"
+logo = "logo-256x256.png"
