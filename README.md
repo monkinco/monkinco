@@ -1,16 +1,14 @@
-### Hi there 👋
+# Hi there 👋
 
-<!--
-**monkinco/monkinco** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[#iPadOnly](https://github.com/topics/ipad), [#BlinkShell](https://github.com/topics/blinkshell), [#Design](https://github.com/topics/design), [#Nextjs](https://github.com/topics/nextjs), [#vim](https://github.com/topics/vim), [#figma](https://github.com/topics/figma)
 
-Here are some ideas to get you started:
+- [Twitter](https://twitter.com/monkinco)
+- [Dribbble](https://dribbble.com/monkin)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+----
+
+### Blink Shell
+If you want to be up-to-date and test the latest features, please sign up here: [Blink Shell Community](https://community.blink.sh)
+
+----
+🖖
