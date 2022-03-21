@@ -1,9 +1,0 @@
-name = "monkin"
-license = ""
-description = "monkin.co"
-homepage = "https://github.com/monkinco/monkinco.git"
-min_version = "0.54.0"
-
-[author]
-  name = "MONKIN"
-  homepage = "https://monkin.co/"
